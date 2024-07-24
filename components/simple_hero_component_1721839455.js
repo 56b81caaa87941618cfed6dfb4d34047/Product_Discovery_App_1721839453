@@ -17,6 +17,18 @@ Vue.component("simple_hero_component_1721839455", {
                     </div>
                 </div>
             </nav>
+            <nav class="bg-white shadow dark:bg-gray-800">
+                <div class="container flex items-center justify-between p-6 mx-auto">
+                    <div class="flex items-center justify-between">
+                        <a href="#" class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300">Logo</a>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="#" class="px-3 py-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mx-2 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">Home</a>
+                        <a href="#" class="px-3 py-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mx-2 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">About</a>
+                        <a href="#" class="px-3 py-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mx-2 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">Contact Us</a>
+                    </div>
+                </div>
+            </nav>
             <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1">
                 <div id="hero-container" class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
                     <div id="hero-text-container" class="mr-auto place-self-center lg:col-span-7">
